@@ -1,0 +1,26 @@
+******************************************************************************************/
+public class gitTriggerHandller {
+    
+    public static void beforeInsert(List<iItemGit> listNewItem){
+        
+		System.debug('Lista de git item: ' + listNewItem);
+ 		System.debug('Lista de mais git itens: ' + listNewItem);
+<<<<<<< HEAD
+		System.debug('Lista de mais gits itens 3: ' + listNewItem);
+=======
+	    	System.debug('Lista de menos git itens: ' + listNewItem);
+	    
+      
+    }
+	
+	    public static void afterInsert(List<iItemGit> listNewItem){
+        
+		System.debug('Lista de git item: ' + listNewItem);
+ 		System.debug('Lista de mais git itens: ' + listNewItem);
+	    	System.debug('Lista de menos git itens: ' + listNewItem);
+	    
+>>>>>>> 8da1b07d51bbbb9495cbf1826972c4f8c2aeae3c
+      
+    }
+ 
+}
